@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <header>
+       <img src="./img/hambur.png"  id="img"></img>
+       <img src="https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2017/09/YouTube-novo-logo.jpg" id="logo"></img>
+       <input placeholder="Pesquisar"></input>
+    </header>
+    <div class="container">
+        <div class="child" id="navbar">
+            
+        </div>
+    </div>
+    <script>
+   
+        var icone= document.getElementById("img")
+        icone.addEventListener("click", ()=>
+        {
+            var menu =document.getElementById("navbar")
+            if(menu.classList.contains("hide"))
+            {
+                menu.classList.add("show")
+                menu.classList.remove("hide")
+            }
+            else{
+                menu.classList.add("hide")
+                menu.classList.remove("show")
+            }
+ 
+        })
+        
+    
+ 
+ </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    
+}
+img
+{
+  width: 24px;
+  padding: 20px;
+  cursor: pointer;
+  object-fit: cover;
+  
+}
+header
+{
+    background-color: #323232;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+#logo{
+    width: 90px;
+    height: 20px;
+    margin-top: 5px;
+    
+}
+input{
+    
+    border: none;
+    padding: 0px;
+    margin:0px;
+    height: auto;
+    width: 30%;
+    outline: grey;
+    -webkit-appearance: none;
+    -webkit-font-smoothing:antialiased;
+    box-shadow: grey;
+    font-family: 'Roboto','Noto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-rendering: auto;
+    text-transform: none;
+    text-align:inherit ;
+    background-color:transparent ; 
+    border: 1px solid grey;
+    height: 35px;  
+    margin-left: 50px;
+    justify-content: center;
+     
+    
+}
+.container
+{
+    display: flex;
+    height: 800px;
+    border:3px solid black
+    
+    
+}
+.child
+{
+    border: 3px solid black;
+    width: 200px;
+   overflow: hidden;
+}
+.show
+{
+    opacity: 1;
+    
+}
+.hide
+{
+    opacity: 0;
+   
+}
