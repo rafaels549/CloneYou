@@ -17,6 +17,7 @@ header
     align-items: center;
     
     
+    
 
 }
 #logo{
@@ -31,7 +32,7 @@ input{
     padding: 0px;
     margin:0px;
     height: auto;
-    width: 30%;
+    width: 35%;
     outline: grey;
     -webkit-appearance: none;
     -webkit-font-smoothing:antialiased;
@@ -46,8 +47,8 @@ input{
     background-color:transparent ; 
     border: 1px solid grey;
     height: 35px;  
-    margin-left: 50px;
-    justify-content: center;
+    margin-left: 100px;
+    
      
     
 }
@@ -62,16 +63,29 @@ input{
 .child
 {
     border: 3px solid black;
-    width: 200px;
-   overflow: hidden;
+    width: 250px;
+    background-color: #191919;
+    
+    
+    
 }
 .show
 {
     opacity: 1;
+    
     
 }
 .hide
 {
     opacity: 0;
    
+}
+p{
+    margin-left: 50px;
+    color: white;
+}
+button{
+    background-color:#323232 ;
+    height: 40px;
+    width: 64px;
 }
